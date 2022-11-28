@@ -151,6 +151,9 @@
     .proyecto_item{
         margin:0 0 0 3rem;
     }
+    .mapa_contacto{
+        display: none;
+    }
 }
 
 @media screen and (max-width:440px) {
@@ -158,9 +161,7 @@
         width: auto;
         display: none;
     }
-    .nav__items:first-child{
-        display: none;
-    }
+   
     .nav__items h2{
         display: none;
     }
@@ -284,9 +285,7 @@
         margin-right: 0;
         padding: 1px;
     }
-    .sobre_mi__info___data____items{
-        
-    }
+    
     .sobre_mi__info___data____items h3{
         font-size: .8rem;
     }
@@ -381,17 +380,52 @@
         bottom: 0;
         width: 100%;
     }
+    .contacto{
+        width: 80%;
+    }
+    .formulario_contacto{
+        width: 250px;
+        margin-left: 0;
+    }
+    .mapa_contacto{
+        display: none;
+    }
+    textarea{
+        width: 90%;
+    }
+    .formulario_contacto h2{
+        font-size: 1rem;
+    }
+    .formulario_contacto form{
+        width: 250px;
+    }
+    .nombre,.email,.telefono,.mensaje{
+        width: 90%;
+    }
+    .btn_enviar{
+        width: 90%;
+    }
     .redes__lista___items a img{
         width: 30px;
         height: 30px;
     }
     footer{
         width: 100%;
-        margin-top: 29px;
-        right: 0;
+        position: absolute;
+        top: 525px;
+        left: 240px;
+        
+        
     }
     .redes{
-        width: 100%;
+        
+       
+    }
+    .redes__lista{
+        flex-direction: column;
+    }
+    .redes__lista___items a img{
+        background-color: rgba(0, 0, 0, 0.216);
     }
     
 }

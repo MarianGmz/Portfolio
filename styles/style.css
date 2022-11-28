@@ -189,14 +189,15 @@ h1 span{
 }
 .foto-sobre{
     width: 300px;
-    height: 350px;
+    height: 450px;
     background-image: url("../assets/sobre-mi.jpg");
     background-size: cover;
     border-radius: 4px;
 }
 .sobre_mi__info{
     color: #fff;
-    margin-top: 1rem;
+    margin-top: .7rem;
+    margin-left: 10rem;
     
 }
 .sobre_mi__foto{
@@ -218,33 +219,30 @@ h1 span{
     border-bottom: 2px solid #8428BA;
     border-right: 2px solid #614EFF;
     border-left: 2px solid #614EFF;
-    border-radius: 7px;
-    padding:5px 25px;
+    border-radius: 7px 0;
+    padding:4px 10px;
     color:  #c3b3ffda;
     margin-top: 25px;
     display: inline-block;
     font-family: var(--font-family-principal);
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align:  center;
     text-decoration: none;
     cursor: pointer;
 }
 .btn_cv{
-    background: hsla(0, 0%, 4%, 0.3);
-    border-top: 2px solid #556699;
-    border-bottom: 2px solid #8428BA;
-    border-right: 2px solid #614EFF;
-    border-left: 2px solid #614EFF;
-    border-radius: 7px;
+    background: linear-gradient(97deg, rgba(43,110,231,1) 14%, rgba(4,55,139,1) 67%, rgba(178,0,236,1) 100%);
+    
+    border-radius: 7px 0;
     padding:5px 25px;
-    color:  #c3b3ffda;
+    color:  #fff;
     margin-top: 25px;
     margin-bottom: 25px;
     display: inline-block;
     font-family: var(--font-family-principal);
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 500;
     text-align:  center;
     text-decoration: none;
     cursor: pointer;
@@ -270,6 +268,7 @@ h1 span{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
+    padding: 2rem;
 }
 .sobre_mi__info___data____items{
     display: flex;
@@ -353,6 +352,7 @@ h1 span{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 .formacion_titulo{
     
@@ -374,7 +374,7 @@ h1 span{
 .formacion_items img{
     opacity: .9;
     border-radius: 5px;
-    width: 400px;
+    width: 350px;
     height: 350px;
     position: relative;
    
@@ -591,6 +591,7 @@ h1 span{
 }
 .seccion_contacto__titulo2{
     color:#8E2AFF ;
+    font-size: 1.2rem;
 }
 .contacto{
     display: grid;
@@ -612,6 +613,7 @@ h1 span{
     font-weight: bold;
 
 }
+
 .formulario_contacto{
     margin-right: 70px;
 }
@@ -630,9 +632,9 @@ h1 span{
     position: relative;
     width: fit-content;
     height: fit-content;
-    border-bottom: 1px solid #8E2AFF;
+    
     border-radius: 10px;
-    box-shadow: 1px 1px 3px black inset;
+  
     padding: 5px;
     margin-top: 10px;
     
@@ -647,6 +649,7 @@ h1 span{
     outline: none;
     margin-left: 15px;
     color: #fff;
+    border-bottom: 1px solid black;
     
 }
 .nombre input::placeholder,.email input::placeholder,.telefono input::placeholder{
@@ -655,7 +658,9 @@ h1 span{
     
 }
 
-
+.telefono input:focus , .nombre input:focus , .email input:focus,.mensaje textarea:focus{
+    border-bottom: 1px solid #8E2AFF;
+}
 .mapa_contacto{
     width: 100%;
     display: flex;
@@ -676,13 +681,14 @@ h1 span{
 .mensaje{
     width: fit-content;
     height: fit-content;
-    border-bottom: 2px solid black;
+    
     margin-top: 50px;
 }
 
 .mensaje textarea{
     background-color: transparent;
     border: none;
+    border-bottom: 2px solid black;
     outline: none;
     text-align: center;
     color: #fff;
@@ -697,9 +703,10 @@ h1 span{
     margin-top: 25px;
     border-radius: 10px 0;
     height: 40px;
+    color: #fff;
     font-size: 1rem;
     font-weight: bolder;
-    background-color: #1a6dff;
+    background: linear-gradient(97deg, rgba(43,110,231,1) 14%, rgba(4,55,139,1) 67%, rgba(178,0,236,1) 100%);
     cursor: pointer;
 }
 
