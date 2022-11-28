@@ -1,0 +1,397 @@
+@media screen and (max-width:1040px) {
+    .nav__menu{
+        width: auto;
+        align-items: flex-start;
+    }
+    .nav__items h2{
+        font-size: 1rem;
+    }
+    .nav__items{
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .nav__items a{
+        width: 50px;
+    }
+    .nav__items:first-child{
+        margin: 0;
+    }
+    .profesion{
+        bottom: 0;
+    }.profesion h2{
+        font-size: 1.8rem;
+    }
+    .formacion{
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .sobre_mi__info {
+        width: 100%;
+        font-size: .7rem;
+        margin: 20px;
+        right: -80px;
+        position: relative;
+    }
+    .sobre_mi__info___data{
+        width: 100%;
+    }
+    .sobre_mi__info___data____items h3{
+        font-size: 1rem;
+    }
+    
+    .formacion_items{
+        width: 100%;
+    }
+    .formacion_img_conteiner{
+        width: 90%;
+        height: 200px;
+    }
+    .formacion_img_conteiner img{
+        width: 100%;
+        height: 100%;
+    }
+    .proyecto_item{
+        width: 90%;
+        margin-left: 4rem;
+    }
+    .proyecto_item__info{
+        margin-left: 20px;
+    }
+    .proyecto_item__info___titulo{
+        text-shadow: 1px 1px 1px  black;
+    }
+    .proyecto_item__info___titulo::first-letter{
+        color: #8E2AFF;
+    }
+    
+}
+
+@media screen and (max-width:770px){
+    
+    .nav__menu{
+        width: 100%;
+        height: 100%;
+    }
+    .nav__items h2{
+        font-size: 1rem;
+    }
+    .nav__items{
+        height: 10%;
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo{
+        width: 130px;
+       
+    }
+    .logo-inicio h1{
+        font-size: 1.2rem;
+        width: 450px;
+    }
+    .logo-inicio h1::first-letter{
+        font-size: 1.4;
+    }
+    .container{
+        width: 200px;
+        height: 200px;
+    }
+    .profesion{
+        bottom: 0;
+    }.profesion h2{
+        font-size: 1.4rem;
+    }
+    .sobre_mi{
+        width: 90%;
+    }
+    .sobre_mi__foto{
+        width: 100%;
+    }
+    .foto-sobre{
+        width: 100%;
+        height: 200px;
+    }
+
+    .sobre_mi__info___data{
+        width: 100%;
+        padding: 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .habilidades_items{
+        margin-left: 25px;
+    }
+    .habilidades_conteiner{
+        padding: 20px;
+    }
+    
+    .formacion{
+        margin: 0;
+        width: 100%;
+
+    }
+    .formacion_conteiner{
+        width: 100%;
+        margin: 0;
+    }
+    .formacion_items{
+        width: 100%;
+        height: auto;
+    }
+    .formacion_img_conteiner{
+        width: 150px;
+    }
+    .formacion_img_conteiner img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .proyecto_item{
+        margin:0 0 0 3rem;
+    }
+}
+
+@media screen and (max-width:440px) {
+    h1{
+        width: auto;
+        display: none;
+    }
+    .nav__items:first-child{
+        display: none;
+    }
+    .nav__items h2{
+        display: none;
+    }
+    .profesion{
+        width: 200px;
+        bottom: -20px;
+        left: 0;
+    }
+    .profesion h2{
+        font-size: 1rem;
+        
+    }
+    .logo-inicio{
+        width: 100%;
+    }
+    .logo-inicio h1{
+        font-size: .7rem;
+    }
+    .logo-inicio h1::first-letter{
+        font-size: 1rem;
+    }
+    .logo{
+        margin-top: 60px;
+        width: 60px;
+        height:60px;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        z-index: 11;
+    }
+    .nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav__menu{
+        width: 80%;
+        display: flex;
+        height: 50px;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        
+    }
+    .nav__items{
+        width: 100px;
+        height: auto;
+        display: block;
+        padding: 0;
+    }
+    .nav__items a{
+        font-size: .6rem;
+        width: 100%;
+        height: 100%;
+        writing-mode:horizontal-tb;
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        width: 200px;
+        height: 200px;
+    }
+
+    .sobre_mi{
+        grid-template-columns: 1fr;
+        grid-template-rows:20% 50%;
+        position: relative;
+        width: auto;
+        height: auto;
+        gap: 10px;
+    }
+    .sobre_mi__foto{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 80px;
+        right: 28px;
+        display: flex;
+        justify-content: center;
+    }
+    .foto-sobre{
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+        background-position: 55%;
+        background-repeat: no-repeat;
+        
+
+    }
+    .sobre_mi__foto a{
+        margin: 10px;
+    }
+    .btn_habilidades,.btn_formacion{
+        width: 100px;
+        height: 10px;
+
+        font-size: .7rem;
+        margin: 0;
+    }
+    .sobre_mi__info{
+        left: 0;
+        width: 80%;
+    }
+    .sobre_mi__info h2{
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .sobre_mi__info p{
+        font-size: .4rem;
+        margin: 10px 0 10px 0;
+        
+    }
+    .sobre_mi__info___data{
+        left: 0;
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        margin-right: 0;
+        padding: 1px;
+    }
+    .sobre_mi__info___data____items{
+        
+    }
+    .sobre_mi__info___data____items h3{
+        font-size: .8rem;
+    }
+
+    .btn_cv{
+        width: 100px;
+        height: 10px;
+
+        font-size: .7rem;
+        margin: 50px;
+    }
+    .habilidades{
+        width: 100%;
+        height: auto;
+    }
+    .habilidades h2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .habilidades_conteiner{
+        width: 100%;
+        height: auto;
+        margin-left: 1px;
+    }
+    .habilidades_grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .habilidades_items{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .habilidades_items img{
+        width: 30px;
+        height: 30px;
+    }
+    .formacion{
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .formacion_conteiner{
+        flex-direction: column;
+    }
+    .formacion_items{
+        width: 100%;
+    }
+    .formacion_img_conteiner{
+        width: 90%;
+        height: 200px;
+    }
+    .formacion_img_conteiner img{
+        width: 100%;
+        height: 100%;
+    }
+    .formacion_titulo{
+        font-size: 1.3rem;
+    }
+    .proyectos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 700px;
+    }
+    .proyecto_item{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .proyecto_item__img{
+        margin-top: 60px;
+        width: 70%;
+        height: 250px;
+        grid-row: 2/3;
+    }
+    .proyecto_item__info{
+        width: 90%;
+        height: auto;
+        position: relative;
+        left: 0;
+        grid-row: 1/2;
+    }
+    .proyecto_item__info___desc{
+        width: 100%;
+        font-size: .6rem;
+    }
+    .proyecto_item__info___langs{
+        
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .redes__lista___items a img{
+        width: 30px;
+        height: 30px;
+    }
+    footer{
+        width: 100%;
+        margin-top: 29px;
+        right: 0;
+    }
+    .redes{
+        width: 100%;
+    }
+    
+}

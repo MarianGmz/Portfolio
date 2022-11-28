@@ -1,0 +1,22 @@
+
+.footer{
+    width: 30%;
+    height: 60px;
+   position: fixed;
+   bottom: .5rem;
+   right:49px;
+   margin: 0 1rem 0 0;
+   z-index: 10;
+
+}
+.redes__lista{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2rem .2rem 0;
+    list-style: none;
+    z-index: 0;
+}
+
+.redes__lista___items img{
+    width: 50px;
+}
